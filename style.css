@@ -2,7 +2,21 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  --primary-color:red;
+  --primary-red:red;
+  --primary-black: black;
+  --text-color: white;
+  --light-gray: #999999;
+  --medium-gray: #8C8C8C;
+  --dark-gray: #757575;
+  --Blue: #0071EB;
+  --Orange: #FFA00A;
+  --Green: #5FA53F;
+  --main-bg-color: black;
+  --main-bg-lightcolor: #222222;
+  
+  
+  
+
   
 
   /*color-scheme: light dark;
