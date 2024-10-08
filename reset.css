@@ -1,7 +1,7 @@
 /*https://www.joshwcomeau.com/css/custom-css-reset/
   1. Use a more-intuitive box-sizing model.
 */
-*, *::before, *::after {
+/**, *::before, *::after {
     box-sizing: border-box;
   }
 
@@ -18,11 +18,7 @@
     3. Add accessible line-height
     4. Improve text rendering
   */
-  body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-  }
-  
+ 
   /*
     5. Improve media defaults
   */

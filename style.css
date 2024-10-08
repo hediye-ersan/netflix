@@ -2,8 +2,9 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  --primary-red:red;
+  --primary-red:#E50914;
   --primary-black: black;
+  /*topography*/
   --text-color: white;
   --light-gray: #999999;
   --medium-gray: #8C8C8C;
@@ -13,7 +14,58 @@
   --Green: #5FA53F;
   --main-bg-color: black;
   --main-bg-lightcolor: #222222;
+
+  body {
+    padding: 0;
+    width: 1440px;
+    height: 1547px;
+    top: 255px;
+    left: -773px;
+    gap: 0px;
+    border: 15px solid var(--primary-red);
+    background-color: var(--main-bg-color);
+    
   
+  .title{
+    width: 1440px;
+    height: 109px;
+    background-color: var(--primary-red);
+  }
+
+  }
+  h1{
+  color: var(--text-color);
+  font-family: 'Signika', sans-serif;;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  width: 396px;
+  height: 55px;
+  padding: 35px 0 0 79px;
+  }
+  .primarys {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .primary{
+  padding-top: 124px;
+  width: 520px;
+  height: 458px;
+  top: 124px;
+  left: 81px;
+  background-color: var(--primary-red);
+  color: var(--text-color);
+
+  }
+  .primary h3 {
+ 
+  
+   
+  }
+
   
   
 
