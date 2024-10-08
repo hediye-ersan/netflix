@@ -1,70 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+*{
+  font-family: "Signika", sans-serif;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+
   --primary-red:#E50914;
   --primary-black: black;
-  /*topography*/
   --text-color: white;
+  /*topography*/
   --light-gray: #999999;
   --medium-gray: #8C8C8C;
   --dark-gray: #757575;
+  /*accentcolor*/
   --Blue: #0071EB;
   --Orange: #FFA00A;
   --Green: #5FA53F;
-  --main-bg-color: black;
-  --main-bg-lightcolor: #222222;
+  /*background color*/
+  --bg-color: black;
+  --bg-lightcolor: #222222;
 
   body {
-    padding: 0;
-    width: 1440px;
-    height: 1547px;
-    top: 255px;
-    left: -773px;
-    gap: 0px;
-    border: 15px solid var(--primary-red);
-    background-color: var(--main-bg-color);
-    
-  
-  .title{
-    width: 1440px;
-    height: 109px;
-    background-color: var(--primary-red);
-  }
+       background-color: var(--bg-color);
+       border: 1rem solid var(--primary-red);
+       padding-left: 3rem;
+
 
   }
-  h1{
-  color: var(--text-color);
-  font-family: 'Signika', sans-serif;;
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 55px;
-  letter-spacing: -0.01em;
-  text-align: left;
-  width: 396px;
-  height: 55px;
-  padding: 35px 0 0 79px;
+  .title{
+    margin:0 0 0 -3rem;
+    padding: 1rem;
   }
+  
+ .primary h2 {
+  padding: 3rem 0 2rem 0;
+ }
+
+  h2 {
+    color: var(--text-color);
+  }
+  
   .primarys {
     display: flex;
-    justify-content: center;
+    gap: 5rem;
+  
+  }
+  .primarys, .TypographyColor, .AccentColor, .BackgrounColor{
+    padding-bottom: 3rem;
   }
   
-  .primary{
-  padding-top: 124px;
-  width: 520px;
-  height: 458px;
-  top: 124px;
-  left: 81px;
-  background-color: var(--primary-red);
-  color: var(--text-color);
+  
 
-  }
-  .primary h3 {
- 
+ .primary-color {
+  color: var(--text-color);
+  padding: 10rem 30rem 10rem 2rem;
+}
+.typographys {
+  display: flex;
+}
+.typography {
+  width: 150px;
+  height: 150px;
   
-   
-  }
+}
+.typography:nth-child(n+2){
+  display: flex;
+  align-items: end;
+}
+.main-color{
+  width: 4rem;
+  height: 2rem;
+}
+.accent, .background {
+  width: 150px;
+  height: 150px;
+}
+.accents, .backgrounds{
+  display: flex;
+  gap: 1.5rem;
+}
+.accents h3, .typographys h3, .backgrounds h3{
+  background-color: var(--text-color);
+  padding: 0.3rem;
+  width: 4rem;
+  height: 2rem;
+  margin: 1rem 0 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  color: var(--text-color);
+  margin: 2rem 0 0 1rem;
+}
+
+
 
   
   
